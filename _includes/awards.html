@@ -1,0 +1,16 @@
+<span class="awards">
+{% for award in include.links %}
+  <span
+    class="award"
+    title="{{ award.name }}" onmouseover="document.querySelector('#link-label-{{include.project | escape}}').innerHTML = '{{ award.name }}';"
+    onmouseout="document.querySelector('#link-label-{{include.project escape}}').innerHTML = '';"
+  >
+  {%- case award.type -%}
+    {%- when "bestpaper" -%}
+    <i class="fa fa-trophy" title="{{ award.name }}"></i>
+    {%- else -%}
+    <i class="fa fa-star" title="{{ award.name }}"></i>
+  {%- endcase -%}
+  </span>
+{% endfor %}
+</span>

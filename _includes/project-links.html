@@ -1,0 +1,136 @@
+{%assign post_id = post.id | split:'/' | last %}
+
+<!-- PAPER -->
+
+{% if show_links_text %}
+  {% if post.paper or post.youtube-id or post.vimeo-id or post.slideshare or post.scribd-id or post.slide or post.poster or post.link or post.prototype or post.website %}
+  Links:
+  {% endif %}
+{% endif %}
+
+{%if post.paper %}
+  <span>
+    <a href="{{ post.paper }}" class="paper">
+      <i class="icon-file"></i>
+      Paper
+    </a>
+  </span>
+{%endif%}
+
+<!-- VIDEO-->
+{%if post.youtube-id %} <!--post.youtube-->
+  {% if simple_links %}
+  <span>
+    <a href="http://www.youtube.com/watch?v={{post.youtube-id}}" target="_blank" role="button" data-toggle="modal"><i class="icon-facetime-video" class="video"></i> Video</a>
+  {% else %}
+    <a href="#youtube-{{post_id}}" role="button" data-toggle="modal"><i class="icon-facetime-video" class="video"></i> Video</a>
+
+    <div class="modal hide fade" id="youtube-{{post_id}}">
+      <div class="modal-header">
+        <button type="button" class="close" data-dismiss="modal" aria-hidden="true">&times;</button>
+        <h3>Video: {{post.title}}</h3>
+      </div>
+      <div class="modal-body center">
+        <iframe width="420" height="315" src="{{ post.youtube }}" frameborder="0" allowfullscreen></iframe>
+      </div>
+    </div>
+  </span>
+  {%endif%}
+{%endif%}
+{%if post.vimeo-id %}
+  <span>
+  {% if simple_links %}
+    <a href="http://vimeo.com/{{post.vimeo-id}}"  target="_blank"  role="button" data-toggle="modal"><i class="icon-facetime-video" class="video"></i> Video</a>
+  {% else %}
+    <a href="#vimeo-{{post_id}}" role="button" data-toggle="modal">
+      <i class="icon-facetime-video" class="video"></i>
+      Video
+    </a>
+
+    <div class="modal hide fade" id="vimeo-{{post_id}}">
+      <div class="modal-header">
+        <button type="button" class="close" data-dismiss="modal" aria-hidden="true">&times;</button>
+        <h3>Video: {{post.title}}</h3>
+      </div>
+      <div class="modal-body center">
+        <iframe src="http://player.vimeo.com/video/{{post.vimeo-id}}" width="450" height="315" frameborder="0" webkitAllowFullScreen mozallowfullscreen allowFullScreen></iframe>
+      </div>
+    </div>
+  {%endif%}
+  </span>
+{%endif%}
+
+<!-- SLIDE -->
+<!-- if post.slideshare-id -->
+
+{%if post.slideshare%}
+  <span>
+  {% if simple_links %}
+    <a href="{{post.slideshare}}"  target="_blank"  role="button" data-toggle="modal" class="slide"><i class="icon-slide"></i> Slides</a>
+  {% else %}
+
+  <a href="#slideshare-{{post_id}}" role="button" data-toggle="modal" class="slide"><i class="icon-slide"></i> Slides</a>
+  <div class="modal hide fade" id="slideshare-{{post_id}}">
+    <div class="modal-header">
+      <button type="button" class="close" data-dismiss="modal" aria-hidden="true">&times;</button>
+      <h3>Slide: {{post.title}}</h3>
+    </div>
+    <div class="modal-body center">
+      <iframe src="http://www.slideshare.net/slideshow/embed_code/{{post.slideshare-id}}" width="427" height="356" frameborder="0" marginwidth="0" marginheight="0" scrolling="no" style="border:1px solid #CCC;border-width:1px 1px 0;margin-bottom:5px" allowfullscreen webkitallowfullscreen mozallowfullscreen> </iframe>
+    </div>
+  </div>
+<!--
+ <div style="margin-bottom:5px"> <strong> <a href="http://www.slideshare.net/kanitw/studymaniapresentationpdf" title="StudyManiaPresentation.pdf" target="_blank">StudyManiaPresentation.pdf</a> </strong> from <strong><a href="http://www.slideshare.net/kanitw" target="_blank">Kanit Ham Wongsuphasawat</a></strong> </div> -->
+  {%endif%}
+  </span>
+{%endif%}
+
+{%if post.scribd-id %}
+  <span>
+  {% if simple_links %}
+    <a href="http://www.scribd.com/doc/{{post.scribd-id}}" target="_blank" role="button" data-toggle="modal" class="slide"><i class="icon-slide"></i> Slides</a>
+  {% else %}
+  <a href="#scribd-{{post_id}}" target="_blank" role="button" data-toggle="modal" class="slide"><i class="icon-slide"></i> Slides</a>
+    <div class="modal hide fade" id="scribd-{{post_id}}">
+      <div class="modal-header">
+        <button type="button" class="close" data-dismiss="modal" aria-hidden="true">&times;</button>
+        <h3>Slide: {{post.title}}</h3>
+      </div>
+      <div class="modal-body center">
+        <iframe class="scribd_iframe_embed" src="http://www.scribd.com/embeds/{{post.scribd-id}}/content?start_page=1&view_mode=scroll&access_key=key-1rjx6s05d068gmf9mrh3" data-auto-height="false" data-aspect-ratio="1.29936305732484" scrolling="no" id="doc_76493" width="100%" height="400" frameborder="0"></iframe>
+      </div>
+    </div>
+  {%endif%}
+  </span>
+{%endif%}
+
+{%if post.slide %}
+  <span><a href="{{ post.slide }}" class="slide"  target="_blank"><i class="icon-slide"></i> Slides</a></span>
+{%endif%}
+
+<!-- POSTER -->
+
+{%if post.poster %}
+  <span><a href="{{ post.poster }}" class="poster"  target="_blank"><i class="icon-map"></i> Poster</a></span>
+{%endif%}
+
+<!--link, prototype, website-->
+{%if post.link %}
+  <span>
+    <a href="{{ post.link }}" class="link" target="_blank">
+      <i class="icon-share"></i>
+      {%if post.linkname %}
+        {{post.linkname}}
+      {% else %}
+        Link
+      {% endif %}
+    </a>
+  </span>
+{%endif%}
+{%if post.prototype %}
+  <span><a href="{{ post.prototype }}" class="prototype" target="_blank"><i class="icon-share"></i> Prototype</a></span>
+{%endif%}
+{%if post.website %}
+  <span><a href="{{ post.website }}" class="website"><i class="icon-share"></i> Web</a></span>
+{%endif%}
+&nbsp;

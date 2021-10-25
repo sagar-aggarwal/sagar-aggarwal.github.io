@@ -1,0 +1,18 @@
+<div class="projects grid">
+{% for post in site.posts %}
+<div class="item">
+  <a class="img" href="{{ BASE_PATH }}{{ post.url }}" style="background-image:url({% if post.thumb != null %}{{post.thumb}}{% else %}http://placehold.it/350x200 {% endif %})">
+  </a>
+  <div>
+    <div class="title">
+      <a href="{{ BASE_PATH }}{{ post.url }}">
+        {{ post.title }}
+      </a>
+    </div>
+    <div class="caption">
+      {{post.description | markdownify | remove: '<p>' | remove: '</p>' }}
+    </div>
+  </div>
+</div>
+{% endfor %}
+</div>

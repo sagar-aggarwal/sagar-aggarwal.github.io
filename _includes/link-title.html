@@ -1,0 +1,6 @@
+{% assign link = include.link %}
+{%- if link.name -%}
+  {{link.name | strip | escape }}
+{%- else -%}
+  {{link.type | capitalize | strip | escape }}
+{%- endif -%}

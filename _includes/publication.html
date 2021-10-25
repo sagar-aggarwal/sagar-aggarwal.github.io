@@ -1,0 +1,84 @@
+<div class="publication">
+  <div class="title" id="{{ pub.title | slugify }}">{% for award in pub.awards %}<i class="fa fa-trophy award-icon" title="{{ award }}"></i> {% endfor %}{{ pub.title }}</div>
+  <div class="authors">
+    {% for author in pub.authors %}{% include person.html person=author %}{% unless forloop.last %}, {% endunless %}
+    {% endfor %}
+  </div>
+  {% if pub.venue %}
+    <div class="venue">
+      {% if pub.venue_url %}
+        <a href="{{ pub.venue_url }}">
+      {% endif %}
+      {{ pub.venue }}
+      {% if pub.venue_location %}
+        in {{ pub.venue_location }}
+      {% endif %}
+      {% if pub.venue_url %}
+        </a>
+      {% endif %}
+    </div>
+  {% endif %}
+
+  {% if pub.description %}
+    <p class="description">
+      {{ pub.description | markdownify }}
+    </p>
+  {% endif %}
+
+  {% if pub.awards %}
+    <div class="awards">
+      {% for award in pub.awards %}{{ award }}{% unless forloop.last %}, {% endunless %}
+      {% endfor %}
+    </div>
+  {% endif %}
+
+  {% if pub.link or pub.pdf or pub.video or pub.ref or pub.arxiv %}
+    <div class="extra-links">
+    {% if pub.pdf %}
+      <a target="_blank" class="video" href="{{ pub.pdf }}">
+        <i class="fa fa-file-pdf-o" aria-hidden="true"></i> PDF
+      </a>
+    {% endif %}
+    {% if pub.doi %}
+      <a target="_blank" href="http://www.doi2bib.org/bib/{{ pub.doi }}">
+        <i class="fa fa-book" aria-hidden="true"></i> Bibtex
+      </a>
+    {% endif %}
+    {% if pub.arxiv %}
+      <a target="_blank" href="https://arxiv.org/abs/{{ pub.arxiv }}">
+        <i class="fas fa-archive" aria-hidden="true"></i> arXiv: {{ pub.arxiv }}
+      </a>
+    {% endif %}
+    {% if pub.short_doi %}
+      <a target="_blank" href="http://doi.org/{{ pub.short_doi }}">
+        <i class="fa fa-anchor" aria-hidden="true"></i> DOI: {{ pub.short_doi }}
+      </a>
+    {% endif %}
+    {% if pub.link %}
+      <a target="_blank" class="link" href="{{ pub.link }}">
+        <i class="fa fa-file" aria-hidden="true"></i> Project
+      </a>
+    {% endif %}
+    {% if pub.recording %}
+      <a target="_blank" href="{{ pub.recording }}">
+        <i class="fas fa-video" aria-hidden="true"></i> Recording
+      </a>
+    {% endif %}
+    {% if pub.video %}
+      <a target="_blank" class="video" href="{{ pub.video }}">
+        <i class="fa fa-tv" aria-hidden="true"></i> Video
+      </a>
+    {% endif %}
+    {% if pub.slides %}
+      <a target="_blank" class="video" href="{{ pub.slides }}">
+        <i class="fa fa-window-maximize" aria-hidden="true"></i> Slides
+      </a>
+    {% endif %}
+    {% if pub.ref %}
+    <a target="_blank" class="link" href="{{ pub.ref }}">
+      <i class="fa fa-link" aria-hidden="true"></i> Source
+    </a>
+    {% endif %}
+    </div>
+  {% endif %}
+</div>

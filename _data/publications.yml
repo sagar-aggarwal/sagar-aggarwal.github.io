@@ -1,0 +1,33 @@
+- title: "EEG Based Participant Independent Emotion Classification using Gradient Boosting Machines"
+  year: 2018
+  authors: 
+    - <i>Sagar Aggarwal</i>
+    - Luv Aggarwal
+    - Manshubh Singh Rihal
+    - Swati Aggarwal
+  venue: 2018 IEEE 8th International Advance Computing Conference (IACC)
+  ref: https://ieeexplore.ieee.org/document/8692106
+
+- title: "Exploring the Impact of Evolutionary Computing based Feature Selection in Suicidal Ideation Detection"
+  year: 2019
+  authors: 
+    - Ramit Sawhney
+    - Rajiv Ratn Shah
+    - Vedant Bhatia
+    - Chin-Teng Lin
+    - <i>Sagar Aggarwal</i>
+    - Mukesh Prasad
+  venue: 2019 IEEE International Conference on Fuzzy Systems (FUZZ-IEEE)
+  ref: https://ieeexplore.ieee.org/document/8858989
+
+- title: "BHAAV- A Text Corpus for Emotion Analysis from Hindi Stories"
+  year: 2019
+  authors: 
+    - Yaman Kumar
+    - Debanjan Mahata
+    - <i>Sagar Aggarwal</i>
+    - Anmol Chugh
+    - Rajat Maheshwari
+    - Rajiv Ratn Shah
+  venue: 2019 arxiv
+  arxiv: 1910.04073

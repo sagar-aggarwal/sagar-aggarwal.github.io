@@ -1,0 +1,15 @@
+- organization: MIDAS, Indraprastha Institute of Information Technology, New Delhi
+  title: Research Intern
+  date: 2018 - 2019 
+  location: New Delhi
+  advisors: Dr. Rajeev Ratan Shah
+  caption: Worked on creating a sentiment Analysis data for the Hindi Language, Evolutionary Computing based Feature Selection in Suicidal Ideation Detection.
+  logo: iiitd.png
+
+- organization: Netaji Subhas Institute of Technology (NSUT), New Delhi
+  title: Research Intern, Bachelor's Thesis
+  date: 2017 - 2018 
+  location: New Delhi
+  advisors: Dr. Swati Agarwal
+  caption: Proposed various feature extraction methods on EEG signals using time, frequency, time-frequency domain analysisand multi electrode methods.Implemented Deep learning models for classification and regression methods with a 10% increase in accuracy,precision and recall from previous algorithms.
+  logo: nsit.png

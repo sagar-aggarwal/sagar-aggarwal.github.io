@@ -1,0 +1,22 @@
+{% for data in site.data.ft_experience %}
+<div class="item">
+  <div
+    class="logo"
+    style="background-image:url(assets/profile/{{data.logo}})"
+  >
+  </div>
+  <div>
+    <div>
+      <span class="date">{{ data.date }}</span>
+      <span style="font-weight:700;font-size: medium;" class="organization">{{ data.organization }}</span>
+    </div>
+    <div style="font-weight:550;font-size: small;font-style: italic;"class="job-title">{{ data.title }}</div>
+    {% if data.mentors %}
+    <div class="mentors">Mentor(s)/Manager(s): {{ data.mentors }}</div>
+    {% endif %}
+    <div class="caption">
+      {{data.caption | markdownify | remove: '<p>' | remove: '</p>' }}
+    </div>
+  </div>
+</div>
+{% endfor %}

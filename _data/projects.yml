@@ -1,0 +1,142 @@
+- BHAAV:
+  name: BHAAV
+  featured: true
+  url: https://arxiv.org/ftp/arxiv/papers/1910/1910.04073.pdf
+  caption: BHAAV is the first and largest Hindi text corpus for analyzing emotions that a writer expresses through his/her characters in a story, as perceived by a narrator/reader. The corpus consists of 20,304 sentences collected from 230 different short stories spanning across 18 genres such as प्रेरणादायक (Inspirational) and रहस्यमयी (Mystery). Each sentence has been annotated into one of the five emotion categories anger, joy, suspense, sad, and neutral.
+  thumb: assets/bhaav/bhaav.png
+  thumb_class: cover
+  collaborators:
+    - Yaman Kumar
+    - Debanjan Mahata
+    - <i>Sagar Aggarwal</i>
+    - Anmol Chugh
+    - Rajat Maheshwari
+    - Rajiv Ratn Shah
+  links:
+  - type: paper
+    name: BHAAV
+    url: https://arxiv.org/ftp/arxiv/papers/1910/1910.04073.pdf
+  - type: code
+    name: Code
+    url: https://github.com/midas-research/bhaav
+  - type: code 
+    name: Dataset
+    url: https://zenodo.org/record/3457467#.YRALKYgzZPa
+
+- Sucide Ideation:
+  name: Exploring the Impact of Evolutionary Computing based Feature Selection in Suicidal Ideation Detection
+  featured: true
+  url: https://ieeexplore.ieee.org/document/8858989
+  caption: The ubiquitous availability of smartphones and the increasing popularity of social media provide a platform for users to express their feelings, including suicidal ideation. Suicide prevention by suicidal ideation detection on social media lights the path to controlling the rapidly increasing suicide rates amongst youth. This paper proposes a diverse set of features and investigates into feature selection using the Firefly algorithm to build an efficient and robust supervised approach to classifying tweets with suicidal ideation. The development of a suicidal language to create three diverse, manually annotated datasets leads to the validation of the proposed model. An in-depth result and error analysis lead to an accurate system for monitoring suicidal ideation on social media along with the discovery of optimal feature subsets and selection methods using a penalty based Firefly algorithm.
+  thumb: assets/fuzz/main.png
+  thumb_class: cover
+  collaborators:
+    - Ramit Sawhney
+    - Rajiv Ratn Shah
+    - Vedant Bhatia
+    - Chin-Teng Lin
+    - <i>Sagar Aggarwal</i>
+    - Mukesh Prasad
+  links:
+  - type: paper
+    name: Paper
+    url: https://ieeexplore.ieee.org/document/8858989
+  - type: paper 
+    name: Poster
+    url: /assets/fuzz/poster.pdf
+
+- EEG:
+  name: A hybrid model for EEG Analysis in BCI Design [BTP Thesis]
+  featured: true
+  url: https://ieeexplore.ieee.org/document/8692106
+  caption: Analysis of EEG (Electroencephalography) signals provides an alternative ingenious approach towards Emotion recognition. Nowadays, Gradient Boosting Machines (GBMs) have emerged as state-of-the-art supervised classification techniques used for robust modeling of various standard machine learning problems. In this paper, two GBM's (XGBoost and LightGBM) were used for emotion classification on DEAP Dataset. Furthermore, a participant independent model was fabricated by excluding participant number from features. The proposed approach performed well with high accuracies and faster training speed.
+  thumb: assets/eeg/valence.png
+  thumb_class: cover
+  collaborators:
+    - <i>Sagar Aggarwal</i>
+    - Luv Aggarwal
+    - Manshubh Singh Rihal
+    - Swati Aggarwal
+  links:
+  - type: paper
+    name: EEG Paper
+    url: https://ieeexplore.ieee.org/document/8692106
+  - type: code
+    name: Code
+    url: https://github.com/sagar-aggarwal/A-hybrid-model-for-EEG-Analysis-in-BCI-Design
+  - type: code 
+    name: DEAP dataset
+    url: http://www.eecs.qmul.ac.uk/mmv/datasets/deap/readme.html
+
+
+- Best Worst Scaling Annotation Tool: 
+  name: Best Worst Scaling Annotation Tool
+  featured: true
+  url: https://ieeexplore.ieee.org/document/8692106
+  caption: Analysis of EEG (Electroencephalography) signals provides an alternative ingenious approach towards Emotion recognition. Nowadays, Gradient Boosting Machines (GBMs) have emerged as state-of-the-art supervised classification techniques used for robust modeling of various standard machine learning problems. In this paper, two GBM's (XGBoost and LightGBM) were used for emotion classification on DEAP Dataset. Furthermore, a participant independent model was fabricated by excluding participant number from features. The proposed approach performed well with high accuracies and faster training speed.
+  thumb: assets/eeg/valence.png
+  thumb_class: cover
+  collaborators:
+    - <i>Sagar Aggarwal</i>
+    - Rajat Maheswari
+    - Rajiv Ratn Shah
+  links:
+  - type: paper
+    name: Reference Paper
+    url: https://ieeexplore.ieee.org/document/8692106
+  - type: code
+    name: Code
+    url: https://github.com/sagar-aggarwal/Best-Worst-Scaling-Annotation-Tool
+
+- NSIT Connect, Windows:
+  name: Senior Developer, NSIT connect - Windows Official App
+  featured: true
+  url: https://github.com/sagar-aggarwal/NSIT-Connect-Microsoft-App
+  caption: NSIT Connect V1 is the official NSIT online app that aims to act as a companion app for NSIT students. The app contains several useful modules like staying up-to-date with all the college news, maintaining a schedule according to the timetable, all the information related to interesting places of the college, and more.
+  thumb: assets/nsit-windows/main.png
+  thumb_class: cover
+  collaborators:
+    - <i>Sagar Aggarwal</i>
+  links:
+  - type: code
+    name: Code
+    url: https://github.com/sagar-aggarwal/NSIT-Connect-Microsoft-App
+
+- NSIT Connect, Android:
+  name: Senior Developer, NSIT connect - Android Official App
+  featured: true
+  url: https://github.com/NSITonline/NSIT-Connect
+  caption: Contributed to the location and hangout module,, Android Version of the College Official App.
+  thumb: assets/nsit-android/main.png
+  thumb_class: cover
+  collaborators:
+    - Swati Garg
+    - <i>Sagar Aggarwal</i>
+  links:
+  - type: code
+    name: Code
+    url: https://github.com/NSITonline/NSIT-Connect
+  - type: article
+    name: PlayStore 
+    url: https://play.google.com/store/apps/details?id=nsit.app.com.nsitapp
+
+- Cryout, Android:
+  name: Cryout, Hack@NSIT
+  featured: true
+  url: https://github.com/sagar-aggarwal/CryOut
+  caption: CryOut has been made with a motive to act as a connecting link between those who seek help and those who are capable of providing help.
+  thumb: assets/cryout/main.png
+  thumb_class: cover
+  collaborators:
+    - <i>Sagar Aggarwal</i>
+    - Shreya Chandra
+    - Sarthak Agarwal
+    - Shivli Agarwal
+  links:
+  - type: code
+    name: Android Code
+    url: https://github.com/NSITonline/NSIT-Connect
+  - type: code
+    name: Website Code
+    url: https://github.com/shr7/CryOut
+
