@@ -46,10 +46,10 @@
     url: /assets/fuzz/poster.pdf
 
 - EEG:
-  name: A hybrid model for EEG Analysis in BCI Design [BTP Thesis]
+  name: EFEACT [Bachelor's Thesis Project]
   featured: true
   url: https://ieeexplore.ieee.org/document/8692106
-  caption: Analysis of EEG (Electroencephalography) signals provides an alternative ingenious approach towards Emotion recognition. Nowadays, Gradient Boosting Machines (GBMs) have emerged as state-of-the-art supervised classification techniques used for robust modeling of various standard machine learning problems. In this paper, two GBM's (XGBoost and LightGBM) were used for emotion classification on DEAP Dataset. Furthermore, a participant independent model was fabricated by excluding participant number from features. The proposed approach performed well with high accuracies and faster training speed.
+  caption: This project was a part of my Bachelor’s thesis focused on creating a hybrid model for EEG Analysis in Brain Computer Interfaces(BCI). The objective was to come up with a unique general purpose classifier that can fit multiple EEG datasets efficiently. We began by generating an extended feature set for the datasets. After dynamic feature selection and dimensionality reduction, we juxtapose the performance metrics for various classifiers and seek to build a hybrid classifier. Further, this study is extended to suggest a general purpose tool named EFEACT (EEG Feature extraction and Classification Tool).
   thumb: assets/eeg/valence.png
   thumb_class: cover
   collaborators:
@@ -63,18 +63,18 @@
     url: https://ieeexplore.ieee.org/document/8692106
   - type: code
     name: Code
-    url: https://github.com/sagar-aggarwal/A-hybrid-model-for-EEG-Analysis-in-BCI-Design
+    url: https://github.com/sagar-aggarwal/EFEACT
   - type: code 
     name: DEAP dataset
     url: http://www.eecs.qmul.ac.uk/mmv/datasets/deap/readme.html
 
 
 - Best Worst Scaling Annotation Tool: 
-  name: Best Worst Scaling Annotation Tool
+  name: BWSAT [Best Worst Scaling Annotation Tool]
   featured: true
   url: https://ieeexplore.ieee.org/document/8692106
-  caption: Analysis of EEG (Electroencephalography) signals provides an alternative ingenious approach towards Emotion recognition. Nowadays, Gradient Boosting Machines (GBMs) have emerged as state-of-the-art supervised classification techniques used for robust modeling of various standard machine learning problems. In this paper, two GBM's (XGBoost and LightGBM) were used for emotion classification on DEAP Dataset. Furthermore, a participant independent model was fabricated by excluding participant number from features. The proposed approach performed well with high accuracies and faster training speed.
-  thumb: assets/eeg/valence.png
+  caption: Given a lexicon along with their meanings and comparison pairs generated from Best Worst Scaling Algorithm, the tool provides a UI for annotators to generate comparison results which can later be used to create a rating scale. This tool was part of research project done as an Intern at MIDAS Lab, IIITD.  
+  thumb: assets/bwsat/sample.png
   thumb_class: cover
   collaborators:
     - <i>Sagar Aggarwal</i>
@@ -106,7 +106,7 @@
   name: Senior Developer, NSIT connect - Android Official App
   featured: true
   url: https://github.com/NSITonline/NSIT-Connect
-  caption: Contributed to the location and hangout module,, Android Version of the College Official App.
+  caption: Part of nsitonline team and built location module for searching nearby hangout places, attendance tracker, notifications using GCM and contributed to overall development of the app.
   thumb: assets/nsit-android/main.png
   thumb_class: cover
   collaborators:
