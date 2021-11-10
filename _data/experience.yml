@@ -2,14 +2,21 @@
   title: Research Intern
   date: 2018 - 2019 
   location: New Delhi
-  advisors: Dr. Rajeev Ratan Shah
-  caption: Worked on creating a sentiment Analysis data for the Hindi Language, Evolutionary Computing based Feature Selection in Suicidal Ideation Detection.
+  advisors: <a href="https://www.iiitd.ac.in/rajivratn" style="color:green;">Dr. Rajiv Ratan Shah</a>
+  caption: "<ul>
+  <li>Contributed to <i>BHAAV</i>, a crowd-sourced dataset of 20K Hindi sentences and constructed baseline classification models for sentiment analysis.(See Publications section)</li>
+  <li>Built <i>BWSAT</i>, a tool for generating rating scale for any lexicon using Best-Worst-Scaling Algorithm, extracted 14K hindi words samples along with their meaning from various sources. (See projects section)</li>
+  <li>Published a paper which studies the use of firefly algorithm for feature selection in classifying tweets with suicidal ideation.(See Publications section)</li>
+  </ul>"
   logo: iiitd.png
 
 - organization: Netaji Subhas Institute of Technology (NSUT), New Delhi
-  title: Research Intern, Bachelor's Thesis
+  title: Undergraduate Research Assistant, Bachelor's Thesis
   date: 2017 - 2018 
   location: New Delhi
-  advisors: Dr. Swati Agarwal
-  caption: Proposed various feature extraction methods on EEG signals using time, frequency, time-frequency domain analysisand multi electrode methods.Implemented Deep learning models for classification and regression methods with a 10% increase in accuracy,precision and recall from previous algorithms.
+  advisors: <a href="https://www.linkedin.com/in/dr-swati-aggarwal-50649b169/?originalSubdomain=in" style="color:green;">Dr. Swati Agarwal</a>
+  caption: "<ul>
+  <li>Built <i>EFEACT</i>, a general purpose for EEG analysis using signal processing techniques, feature selection and classifiers for any EEG dataset.(See Projects section)</li>
+  <li>Published a paper with moderate accuracy improvement and decreased execution time  using statistical features and Gradient boosting algorithms on DEAP Dataset. (See Publications section)</li>
+  </ul>"  
   logo: nsit.png

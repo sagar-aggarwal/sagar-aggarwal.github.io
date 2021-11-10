@@ -3,7 +3,10 @@
   title: Software Development Engineer II, Assets and Logistics
   date: April 2021 - Present
   location: Bangalore, India
-  caption: "I designed, developed and tested services for warehouse management systems and was the primary developer for Univied Inventory Platform(UIVP), which assimilates huge data and provides basic views for month end inventory reports."
+  caption: "<ul >
+  <li> Developed <i>Unified Inventory View Platform (UIVP)</i> for internal teams, a system that consolidates 70 lakh warehouse records per month and creates an inventory snapshot in real time using spark, Hadoop, Kafka and Elastic search.</li>
+  <li>Supported the team for warehouse on-call issues during <i>Big Billion Day 2021</i> festive sale with 250 million consumers in India.</li>
+  </ul>"
   logo: Flipkart-Logo.png
 
 - organization: Samsung R&D Bangalore
@@ -11,23 +14,33 @@
   mentors: <a href="https://research.samsung.com/sri-b" style="color:green;">Ramasamy Kannan</a>, Lokesh Boregowda
   date: March 2020 - April 2021
   location: Bangalore, India
-  caption: "Created Machine Learning Models to detect micro gestures for character detection in Virtual Keyboard using hand pose key points with 70%(approx) precision and recall. Part of the team for the development of an end to end android solution for Virtual Keyboard using S10/Note 10 Selfie Camera."
+  caption: "<ul>
+  <li>I primarily designed and developed novel solutions for improving SelfieType(CES2021), a virtual keyboard that allows users to type by tracking finger movements. Integrated the novel hand estimation, calibration and key prediction engine into an Android app using SNPE library. </li>
+  <li>Built the body pose estimation and action recognition pipeline for Samsung’s Fitness Application. </li>
+  <li>Contributed to the development of graphic effects on Augmented Texts using ambient sound and dominant color.</li>
+  </ul>"  
   logo: samsung_logo_blue.png
-
-
+  
 - organization: Samsung R&D Bangalore
   title: Software Engineer, Cloud Engineer, IoT Services
   mentors: <a href="https://www.linkedin.com/in/ramesp/" style="color:green;">Rames P</a>, <a href="https://www.linkedin.com/in/ravikanth-reddy-1693a121/" style="color:green;">Ravikanth Reddy</a>, Harit Sharma, Hari Kumar Pondreti
   date: Jul 2018 - March 2020
   location: Bangalore, India
-  caption: "I worked as a back-end Engineer for the design and implementation of microservices for Samsung IoT Cloud. I was also a primary developer for building event-driven microservices dealing with critical events, endpoint services, and timeline services for the care microservice handling millions of users (part of Samsung IoT cloud). I Contributed to the design and implementation of conceptualized the custom API designs for OCF capabilities for different IoT devices such as Lux and DVS cameras required for TheCare Service."
+  caption: "<ul>
+  <li>Contributed to the design and development of <i>Elderly Care service</i>, a real time monitoring system for elders using IoT devices.</li>
+  <li>Developed 7+ microservices( critical events, endpoint services, and timeline etc) for the care architecture handling millions of users. </li>
+  <li>Conceptualized the custom API designs for OCF capabilities for different IoT devices such as Lux and event cameras.</li>
+  </ul>"  
   logo: samsung_logo_blue.png
 
 - organization: Samsung R&D Bangalore
   title: Software Intern, AI Internship, Bixby, Voice Intelligence
   mentors: Bhanu Prakash
-  date: Jun 2017 - Jul March 2020
+  date: Jun 2017 - Jul 2017
   location: Bangalore, India
-  caption: "Implemented new CNN models for scope based voice command classification with 60% accuracy. Trained and fine tuned earlier models related to different components for Bixby voice assistance. Reduced speed and training time by 10%."
+  caption: "<ul>
+  <li>Implemented CNN models for execution of contextually aware (scope based) voice commands with 60% accuracy.</li>
+  <li>Reduced speed and training time by 10%.</li>
+  </ul>"
   logo: samsung_logo_blue.png
 

@@ -1,5 +1,5 @@
 - BHAAV:
-  name: BHAAV
+  name: BHAAVA-Text Corpus for Emotion Analysis from Hindi Stories
   featured: true
   url: https://arxiv.org/ftp/arxiv/papers/1910/1910.04073.pdf
   caption: BHAAV is the first and largest Hindi text corpus for analyzing emotions that a writer expresses through his/her characters in a story, as perceived by a narrator/reader. The corpus consists of 20,304 sentences collected from 230 different short stories spanning across 18 genres such as प्रेरणादायक (Inspirational) and रहस्यमयी (Mystery). Each sentence has been annotated into one of the five emotion categories anger, joy, suspense, sad, and neutral.
@@ -67,6 +67,9 @@
   - type: code 
     name: DEAP dataset
     url: http://www.eecs.qmul.ac.uk/mmv/datasets/deap/readme.html
+  - type: paper 
+    name: PPT
+    url: /assets/eeg/paper.pdf
 
 
 - Best Worst Scaling Annotation Tool: 
@@ -86,7 +89,7 @@
     url: https://ieeexplore.ieee.org/document/8692106
   - type: code
     name: Code
-    url: https://github.com/sagar-aggarwal/Best-Worst-Scaling-Annotation-Tool
+    url: https://github.com/sagar-aggarwal/BWSAT
 
 - NSIT Connect, Windows:
   name: Senior Developer, NSIT connect - Windows Official App
