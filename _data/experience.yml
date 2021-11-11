@@ -14,7 +14,7 @@
   title: Undergraduate Research Assistant, Bachelor's Thesis
   date: 2017 - 2018 
   location: New Delhi
-  advisors: <a href="https://www.linkedin.com/in/dr-swati-aggarwal-50649b169/?originalSubdomain=in" style="color:green;">Dr. Swati Agarwal</a>
+  advisors: <a href="http://www.nsit.ac.in/faculty/swa/" style="color:green;">Dr. Swati Agarwal</a>
   caption: "<ul>
   <li>Built <i>EFEACT</i>, a general purpose for EEG analysis using signal processing techniques, feature selection and classifiers for any EEG dataset.(See Projects section)</li>
   <li>Published a paper with moderate accuracy improvement and decreased execution time  using statistical features and Gradient boosting algorithms on DEAP Dataset. (See Publications section)</li>

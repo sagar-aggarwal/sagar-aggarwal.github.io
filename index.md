@@ -5,12 +5,6 @@
 layout: home
 title: Sagar Aggarwal
 ---
-I'm a Software Development Engineer II at <a href="https://www.flipkart.com/" style="color:green;">Flipkart</a> where I am involved in developing and maintaining various systems such as Unified Inventory View Platform(UIVP) for the warehouse team. I previously worked at <a href="https://research.samsung.com/sri-b" style="color:green;">Samsung R&D Bangalore</a> as a Senior Software Engineer. I worked in Samsung's IoT Cloud Division where I built various microservices such as Elderly Care System, Lock Management system, etc. I also got the opportunity to work in the Samsung's AR/VR Vision team where I contributed to projects such as Virtual Keyboard using
-S10/Note 10 Selfie Camera, AR animation effects using music and dominant color in the images, and the Fitness app.
+I'm a Software Development Engineer II at <a href="https://www.flipkart.com/" style="color:green;">Flipkart</a>. I work on designing and developing inbound, outbound, and intra-warehouse systems for Warehouse Management. I have had the opportunity to be a part of Visual Intelligence Lab(VIG) as a Senior Software Engineer at  <a href="https://research.samsung.com/sri-b" style="color:green;">Samsung R&D Bangalore</a>, where I researched and built Augmented/Virtual reality solutions - SelfieType, Fitness Application and more. I am also skilled in distributed Systems, Kafka, spring boot, AWS, NoSQL, other backend skills and have more than 2 years of experience in building and deploying microservices in the IoT services team at Samsung R&D.
 
 I completed my B.E in Computer Engineering from <a href="http://www.nsit.ac.in/" style="color:green;">Netaji Subhas University of Technology</a> in 2018.
-
-I passed the Samsung Professional Level Certificate and was also awarded the 'Nipun Award' for best idea and execution. During my bachelor's, I was the Director of Resource Management for Rotract Club of NSIT where I helped in organizing various events.
-
-
-

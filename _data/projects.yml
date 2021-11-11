@@ -1,6 +1,6 @@
 - BHAAV:
   name: BHAAVA-Text Corpus for Emotion Analysis from Hindi Stories
-  featured: true
+  featured: false
   url: https://arxiv.org/ftp/arxiv/papers/1910/1910.04073.pdf
   caption: BHAAV is the first and largest Hindi text corpus for analyzing emotions that a writer expresses through his/her characters in a story, as perceived by a narrator/reader. The corpus consists of 20,304 sentences collected from 230 different short stories spanning across 18 genres such as प्रेरणादायक (Inspirational) and रहस्यमयी (Mystery). Each sentence has been annotated into one of the five emotion categories anger, joy, suspense, sad, and neutral.
   thumb: assets/bhaav/bhaav.png
@@ -25,7 +25,7 @@
 
 - Sucide Ideation:
   name: Exploring the Impact of Evolutionary Computing based Feature Selection in Suicidal Ideation Detection
-  featured: true
+  featured: false
   url: https://ieeexplore.ieee.org/document/8858989
   caption: The ubiquitous availability of smartphones and the increasing popularity of social media provide a platform for users to express their feelings, including suicidal ideation. Suicide prevention by suicidal ideation detection on social media lights the path to controlling the rapidly increasing suicide rates amongst youth. This paper proposes a diverse set of features and investigates into feature selection using the Firefly algorithm to build an efficient and robust supervised approach to classifying tweets with suicidal ideation. The development of a suicidal language to create three diverse, manually annotated datasets leads to the validation of the proposed model. An in-depth result and error analysis lead to an accurate system for monitoring suicidal ideation on social media along with the discovery of optimal feature subsets and selection methods using a penalty based Firefly algorithm.
   thumb: assets/fuzz/main.png
@@ -47,7 +47,7 @@
 
 - EEG:
   name: EFEACT [Bachelor's Thesis Project]
-  featured: true
+  featured: false
   url: https://ieeexplore.ieee.org/document/8692106
   caption: This project was a part of my Bachelor’s thesis focused on creating a hybrid model for EEG Analysis in Brain Computer Interfaces(BCI). The objective was to come up with a unique general purpose classifier that can fit multiple EEG datasets efficiently. We began by generating an extended feature set for the datasets. After dynamic feature selection and dimensionality reduction, we juxtapose the performance metrics for various classifiers and seek to build a hybrid classifier. Further, this study is extended to suggest a general purpose tool named EFEACT (EEG Feature extraction and Classification Tool).
   thumb: assets/eeg/valence.png
@@ -74,7 +74,7 @@
 
 - Best Worst Scaling Annotation Tool: 
   name: BWSAT [Best Worst Scaling Annotation Tool]
-  featured: true
+  featured: false
   url: https://ieeexplore.ieee.org/document/8692106
   caption: Given a lexicon along with their meanings and comparison pairs generated from Best Worst Scaling Algorithm, the tool provides a UI for annotators to generate comparison results which can later be used to create a rating scale. This tool was part of research project done as an Intern at MIDAS Lab, IIITD.  
   thumb: assets/bwsat/sample.png
@@ -86,14 +86,28 @@
   links:
   - type: paper
     name: Reference Paper
-    url: https://ieeexplore.ieee.org/document/8692106
+    url: https://saifmohammad.com/WebPages/bwsVrs.html
   - type: code
     name: Code
     url: https://github.com/sagar-aggarwal/BWSAT
 
+- Traffic Sign Recognition: 
+  name: Traffic Sign Recognition
+  featured: false
+  url: https://github.com/sagar-aggarwal/Traffic-Sign-Recognition
+  caption: Developed a traffic-sign recognition modules using The German Traffic Sign Recognition Benchmark. Implemented an LeNet to classify 43 traffic-signs. 
+  thumb: assets/tsr/data.png
+  thumb_class: cover
+  collaborators:
+    - <i>Sagar Aggarwal</i>
+  links:
+  - type: code
+    name: Code
+    url: https://github.com/sagar-aggarwal/Traffic-Sign-Recognition
+
 - NSIT Connect, Windows:
   name: Senior Developer, NSIT connect - Windows Official App
-  featured: true
+  featured: false
   url: https://github.com/sagar-aggarwal/NSIT-Connect-Microsoft-App
   caption: NSIT Connect V1 is the official NSIT online app that aims to act as a companion app for NSIT students. The app contains several useful modules like staying up-to-date with all the college news, maintaining a schedule according to the timetable, all the information related to interesting places of the college, and more.
   thumb: assets/nsit-windows/main.png
@@ -107,7 +121,7 @@
 
 - NSIT Connect, Android:
   name: Senior Developer, NSIT connect - Android Official App
-  featured: true
+  featured: false
   url: https://github.com/NSITonline/NSIT-Connect
   caption: Part of nsitonline team and built location module for searching nearby hangout places, attendance tracker, notifications using GCM and contributed to overall development of the app.
   thumb: assets/nsit-android/main.png
@@ -125,7 +139,7 @@
 
 - Cryout, Android:
   name: Cryout, Hack@NSIT
-  featured: true
+  featured: false
   url: https://github.com/sagar-aggarwal/CryOut
   caption: CryOut has been made with a motive to act as a connecting link between those who seek help and those who are capable of providing help.
   thumb: assets/cryout/main.png
@@ -143,3 +157,18 @@
     name: Website Code
     url: https://github.com/shr7/CryOut
 
+- GameZone:
+  name: GameZone
+  featured: false
+  url: https://github.com/sagar-aggarwal/CryOut
+  caption: his project is a collection of simple games constituting a ‘Gaming Zone’. It contains three different games- Puzzle Maker, Poker and Brick Braker.
+  thumb: assets/gamezone/games.png
+  thumb_class: cover
+  collaborators:
+    - <i>Sagar Aggarwal</i>
+    - Shreya Chandra
+    - Sachet Ganwal
+  links:
+  - type: code
+    name: Code
+    url: https://github.com/sagar-aggarwal/GameZone
