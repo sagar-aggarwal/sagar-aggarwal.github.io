@@ -160,7 +160,7 @@
 - GameZone:
   name: GameZone
   featured: false
-  url: https://github.com/sagar-aggarwal/CryOut
+  url: https://github.com/sagar-aggarwal/GameZone
   caption: his project is a collection of simple games constituting a ‘Gaming Zone’. It contains three different games- Puzzle Maker, Poker and Brick Braker.
   thumb: assets/gamezone/games.png
   thumb_class: cover
